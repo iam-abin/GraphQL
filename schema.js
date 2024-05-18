@@ -32,6 +32,15 @@ export const typeDefs = `#graphql
         game(id: ID!): Game
         author(id: ID!): Author
     }
+
+    type Mutation{
+        addGame(game: AddGameInput): Game
+        deleteGame(id: ID!):[Game]
+    }
+    input AddGameInput{ # like we defining interface to define type in TS
+        title: String!
+        platform: [String!]! 
+    }
 `;
 
 // Datatypes in graphql are

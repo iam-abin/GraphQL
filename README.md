@@ -7,6 +7,11 @@ npm start
 
 🚀  Server ready at http://localhost:4000/  - This will open up a appolo server ui where we can test each functions
 
+## types
+
+Query - can be used to define functions to query data 
+Mutation - to mutate the data. can be used to define functions to insert, update, delete data.
+
 - Request
 
 query ExampleQuery {

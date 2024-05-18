@@ -21,7 +21,6 @@ export const typeDefs = `#graphql
         reviews: [Review]
         games: [Game]
         authros: [Author]
-
     }
 `
 
